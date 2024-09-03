@@ -145,12 +145,14 @@ header {
     height: 100px;
     background-color: rgb(250, 0, 0);
     border-radius: 0%;
-    transition: background-color 0.6s;
+    transition: background-color 0.6s transform 0.6s;
 }
 
 .animacion:hover {
     background-color: rgb(29, 0, 109);
     cursor: pointer;
+    transform: scale(1.1); 
+    transition: background-color 0.6s, transform 0.6s; 
 }
 
 .mover {
